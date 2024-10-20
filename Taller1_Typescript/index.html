@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="stilos.css">
+    <title>Taller1</title>
+</head>
+<body>
+    <div class="container">
+        <div id="header" class="row">
+            <div class="col">
+                <img src="https://img.freepik.com/vector-premium/diseno-logotipo-television_412311-3881.jpg" alt="logoTv" height="200px" width="200px">
+            </div>
+            <div id="headerText" class="col">
+                SERIES
+            </div>
+        </div>
+        <div class="row">
+            <table class="table table-striped">
+                <thead id="headerTable">
+                  <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Channel</th>
+                    <th>Seasons</th>
+                  </tr>
+                </thead>
+                <tbody id="series"></tbody>
+                <tfoot id="avgSeasons"></tfoot>
+            </table>
+        </div>
+    </div>
+
+    <script type="module" src="./scripts/serie.js" ></script>
+    <script type="module" src="./scripts/data.js" ></script>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

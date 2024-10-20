@@ -1,0 +1,28 @@
+#header{
+    background-color: brown;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#headerText{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    color: beige;
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#name{
+    color: brown;
+    font-weight: bold;
+}
+
+#headerTable{
+    background-color: brown;
+    color: beige;
+}
+
+#avgSeasons{
+    font-weight: bold;
+}
